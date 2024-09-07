@@ -66,7 +66,7 @@ const Carousel = () => {
         {items.map((item, idx) => (
           <div
             key={idx}
-            className={`relative mx-6 transition-transform !flex items-center justify-center duration-500 ease-in-out ${getMarginClass(
+            className={`relative mx-6 transition-transform !flex items-center flex-col justify-center duration-500 ease-in-out ${getMarginClass(
               idx
             )}`}
           >
