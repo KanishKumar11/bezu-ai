@@ -79,7 +79,7 @@ const Carousel = () => {
               )}
             />
             {getNormalisedIdx(idx) === 0 && (
-              <div className="bg-white -mt-10 z-[500] flex items-center justify-center rounded-full gap-3 text-xl py-2 w-max px-5 ml-[10%] relative">
+              <div className="bg-white -mt-10 z-[500] flex items-center justify-center rounded-full gap-3 text-xl py-2 w-max px-5 ml-[4%] relative">
                 {" "}
                 <img
                   src={item.img}
