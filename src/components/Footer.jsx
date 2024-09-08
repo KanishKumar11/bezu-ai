@@ -4,13 +4,13 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-full flex  gap-10 justify-between text-white flex-col px-10 py-5">
+    <div className="w-full flex  gap-10 justify-between text-white flex-col px-10 py-5 mt-20">
       <div className="flex w-full items-start justify-between">
         <div className="flex flex-col text-white">
           <Image src="/1.svg" height={80} width={80} alt="" />
           {/* Bezu AI */}
         </div>
-        <div>
+        <div className="flex lg:flex-row flex-col gap-5">
           {" "}
           <div>Terms & conditions</div>
           <div>Contact us</div>
