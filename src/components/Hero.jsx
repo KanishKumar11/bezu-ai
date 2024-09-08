@@ -19,11 +19,7 @@ export default function Hero() {
     "Do you wanna go to Mars ?",
     "Koi blockbuster chal rahi hai, ya phir life thoda arthouse cinema type slow hai?",
     "Let's save the world together ? ",
-    "three33",
-    "one3",
-    "two 3",
-    "three3 ",
-  ]; // Assuming words are tied to the images
+  ];
 
   const subHeading = `“${words[normalizedIdx]}“`;
 

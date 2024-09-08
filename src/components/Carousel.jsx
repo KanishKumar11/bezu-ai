@@ -61,7 +61,7 @@ const Carousel = ({ setNormalisedIdx }) => {
   };
 
   return (
-    <div className="w-full max-w-[100vw] lg:-mt-28 -mt-16 max-lg:mb-14 ">
+    <div className="w-full max-w-[100vw] lg:-mt-28 -mt-16 max-lg:mb-5 ">
       <Slider ref={sliderRef} {...settings} className="flex gap-5">
         {items.map((item, idx) => {
           setNormalisedIdx(getNormalisedIdx(idx));
