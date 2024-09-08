@@ -13,7 +13,7 @@ export default function Hero() {
   const words = [
     "How was your gym day mr ? ",
     " Is this the start of something new ?",
-    "This is the start of something unexpected?",
+    "These r my random click, what r urs?",
     "How was your day?",
     "Know more about me & the anime World",
     "Do you wanna go to Mars ?",
