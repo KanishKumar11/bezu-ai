@@ -11,7 +11,7 @@ const Carousel = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 4.4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -22,7 +22,7 @@ const Carousel = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2.5,
+          slidesToShow: 3,
         },
       },
     ],
@@ -61,12 +61,12 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full max-w-[100vw] -mt-28">
+    <div className="w-full max-w-[100vw] lg:-mt-28 -mt-16 max-lg:mb-14 ">
       <Slider ref={sliderRef} {...settings} className="flex gap-5">
         {items.map((item, idx) => (
           <div
             key={idx}
-            className={`relative mx-6 transition-transform !flex items-center flex-col justify-center duration-500 ease-in-out ${getMarginClass(
+            className={`relative  transition-transform !flex items-center flex-col justify-center duration-500 ease-in-out ${getMarginClass(
               idx
             )}`}
           >
@@ -74,19 +74,18 @@ const Carousel = () => {
               src={item.img}
               alt={item.name}
               className={cn(
-                "w-60  lg:rounded-[80px] rounded-[68px] z-10",
-                getNormalisedIdx(idx) === 0 && "border-4 border-yellow-500"
+                "lg:w-60 w-40  lg:rounded-[80px] rounded-[60px] z-10"
               )}
             />
             {getNormalisedIdx(idx) === 0 && (
-              <div className="bg-white -mt-10 z-[500] flex items-center justify-center rounded-full gap-3 text-xl py-2 w-max px-5 ml-[4%] relative">
+              <div className="bg-white lg:-mt-10 -mt-5 z-[500] flex items-center justify-center rounded-full gap-3 text-xl py-2 w-max px-5 ml-[4%] relative">
                 {" "}
                 <img
                   src={item.img}
                   alt={item.name}
-                  className={cn("w-10 h-10 rounded-[80px]")}
+                  className={cn("lg:w-10 lg:h-10 w-7 h-7 rounded-[80px]")}
                 />
-                {item.name}
+                <span className="lg:text-base text-sm "> {item.name}</span>
               </div>
             )}
           </div>

@@ -25,28 +25,28 @@ export default function Hero() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="my-28 text-white py-5 rounded-full px-14 bg-gradient-to-r from-[#A31BF1] to-[#0066FF] z-50 text-base  gap-3 items-center flex   "
+          className="my-28 text-white py-5 rounded-full lg:px-14 px-7 bg-gradient-to-r from-[#A31BF1] to-[#0066FF] z-50 text-base  gap-3 items-center flex   "
         >
           <div className="inline-flex -space-x-2 ">
             <img
               alt=""
               src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              className="inline-block h-7 w-7 rounded-full ring-2 ring-white"
+              className="inline-block lg:h-7 lg:w-7 h-5 w-5 rounded-full ring-2 ring-white"
             />
             <img
               alt=""
               src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              className="inline-block h-7 w-7 rounded-full ring-2 ring-white"
+              className="inline-block lg:h-7 lg:w-7 h-5 w-5 rounded-full ring-2 ring-white"
             />
             <img
               alt=""
               src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-              className="inline-block h-7 w-7 rounded-full ring-2 ring-white"
+              className="inline-block lg:h-7 lg:w-7 h-5 w-5 rounded-full ring-2 ring-white"
             />
             <img
               alt=""
               src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              className="inline-block h-7 w-7 rounded-full ring-2 ring-white"
+              className="inline-block lg:h-7 lg:w-7 h-5 w-5 rounded-full ring-2 ring-white"
             />
           </div>{" "}
           <div className="inline-flex   "> 15k+ people using Bezu</div>{" "}
@@ -84,8 +84,6 @@ export default function Hero() {
         />
       </LampContainer>
       <Footer />
-
-      {/* <Slider3D /> */}
     </div>
   );
 }
