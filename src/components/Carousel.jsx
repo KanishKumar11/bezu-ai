@@ -33,6 +33,8 @@ const Carousel = () => {
     { img: "./3.svg", name: "Naruto" },
     { img: "./4.svg", name: "SRK" },
     { img: "./6.svg", name: "Elon Musk" },
+    { img: "./7.svg", name: "Anime" },
+    { img: "./8.svg", name: "Village Girl" },
     { img: "./10.jpg", name: "Celia" },
     { img: "./11.jpg", name: "Shasha" },
     { img: "./12.jpg", name: "Elda" },

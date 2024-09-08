@@ -6,6 +6,32 @@ body{
   cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="36" viewBox="0 0 24 24"><path fill="%23fff" d="M4.5.79v22.42l6.56-6.57h9.29L4.5.79z"></path></svg>'), auto;
 
 }
+@font-face {
+  font-family: 'Euclid';
+  src: url('/fonts/Euclid-light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Euclid';
+  src: url('/fonts/Euclid-regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Euclid';
+  src: url('/fonts/Euclid-medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Euclid';
+  src: url('/fonts/Euclid-bold.ttf') format('truetype');
+  font-weight: 700;
+}
+.pp{
+  font-family: 'PP';
+}
+.euclid{
+  font-family: 'Euclid';
+}
 
 @layer base {
   :root {

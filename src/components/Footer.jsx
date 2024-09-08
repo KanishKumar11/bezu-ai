@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex items-center gap-7 justify-center">
-        <Link href="#">
+        <Link href="https://x.com/bezu_ai" target="_blank">
           <svg
             width="64"
             height="56"
@@ -49,7 +49,7 @@ export default function Footer() {
             />
           </svg>
         </Link>
-        <Link href="#">
+        <Link href="https://instagram.com/talktobezu" target="_blank">
           <svg
             width="64"
             height="56"
