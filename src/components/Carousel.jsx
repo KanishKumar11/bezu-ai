@@ -38,7 +38,7 @@ const Carousel = () => {
     { img: "./10.jpg", name: "Celia" },
     { img: "./11.jpg", name: "Shasha" },
     { img: "./12.jpg", name: "Elda" },
-    { img: "./13.jpg", name: "Klema" },
+    // { img: "./13.jpg", name: "Klema" },
   ];
 
   useEffect(() => {
