@@ -29,16 +29,14 @@ const Carousel = () => {
     beforeChange: (current, next) => setCenterIndex(next),
   };
 
-  // Updated array with image and name
   const items = [
-    { img: "./3.svg", name: "Image 1" },
-    { img: "./4.svg", name: "Image 2" },
-    { img: "./6.svg", name: "Image 3" },
-    { img: "./4.svg", name: "Image 4" },
-    { img: "./3.svg", name: "Image 5" },
-    { img: "./4.svg", name: "Image 6" },
-    { img: "./6.svg", name: "Image 7" },
-    { img: "./4.svg", name: "Image 8" },
+    { img: "./3.svg", name: "Naruto" },
+    { img: "./4.svg", name: "SRK" },
+    { img: "./6.svg", name: "Elon Musk" },
+    { img: "./10.jpg", name: "Celia" },
+    { img: "./11.jpg", name: "Shasha" },
+    { img: "./12.jpg", name: "Elda" },
+    { img: "./13.jpg", name: "Klema" },
   ];
 
   useEffect(() => {
@@ -74,7 +72,7 @@ const Carousel = () => {
               src={item.img}
               alt={item.name}
               className={cn(
-                "lg:w-60 w-40  lg:rounded-[80px] rounded-[60px] z-10"
+                "lg:w-60 w-40  lg:rounded-[80px] rounded-[60px] z-10 aspect-square h-auto"
               )}
             />
             {getNormalisedIdx(idx) === 0 && (
@@ -83,7 +81,9 @@ const Carousel = () => {
                 <img
                   src={item.img}
                   alt={item.name}
-                  className={cn("lg:w-10 lg:h-10 w-7 h-7 rounded-[80px]")}
+                  className={cn(
+                    "lg:w-10 lg:h-10 w-7 h-7 rounded-[80px] aspect-square h-auto"
+                  )}
                 />
                 <span className="lg:text-base text-sm "> {item.name}</span>
               </div>

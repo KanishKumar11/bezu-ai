@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex w-full items-start justify-between">
         <div className="flex flex-col text-white">
           <Image src="/1.svg" height={80} width={80} alt="" />
-          Bezu AI
+          {/* Bezu AI */}
         </div>
         <div>
           {" "}
