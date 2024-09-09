@@ -11,11 +11,12 @@ import Navbar from "./Navbar";
 export default function Hero() {
   const [normalizedIdx, setNormalisedIdx] = useState(0);
   const words = [
+    "Lets start Gyming by today",
     "How was your gym day mr ? ",
     " Is this the start of something new ?",
     "These r my random click, what r urs?",
     "How was your day?",
-    "Know more about me & the anime World",
+    "Are you excited, to experience the best AI",
     "Do you wanna go to Mars ?",
     "Koi blockbuster chal rahi hai, ya phir life thoda arthouse cinema type slow hai?",
     "Let's save the world together ? ",

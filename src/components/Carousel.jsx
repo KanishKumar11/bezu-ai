@@ -19,6 +19,7 @@ const Carousel = ({ setNormalisedIdx }) => {
     arrows: false,
     centerMode: true,
     centerPadding: "0px",
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -31,15 +32,15 @@ const Carousel = ({ setNormalisedIdx }) => {
   };
 
   const items = [
-    { img: "./3.svg", name: "Naruto" },
+    { img: "./naruto.webp", name: "Naruto" },
     { img: "./4.svg", name: "SRK" },
     { img: "./6.svg", name: "Elon Musk" },
-    { img: "./7.svg", name: "Anime" },
+    { img: "./14.jpg", name: "Harll" },
     { img: "./8.svg", name: "Village Girl" },
     { img: "./10.jpg", name: "Celia" },
     { img: "./11.jpg", name: "Shasha" },
     { img: "./12.jpg", name: "Elda" },
-    // { img: "./13.jpg", name: "Klema" },
+    { img: "./15.jpg", name: "Klema" },
   ];
 
   useEffect(() => {
@@ -68,7 +69,7 @@ const Carousel = ({ setNormalisedIdx }) => {
           return (
             <div
               key={idx}
-              className={`relative  transition-transform !flex items-center flex-col justify-center duration-500 ease-in-out ${getMarginClass(
+              className={`relative  transition-transform !flex items-center flex-col justify-center duration-500 ease-in-out object-fill ${getMarginClass(
                 idx
               )}`}
             >
@@ -76,7 +77,7 @@ const Carousel = ({ setNormalisedIdx }) => {
                 src={item.img}
                 alt={item.name}
                 className={cn(
-                  "lg:w-60 w-40  lg:rounded-[80px] rounded-[60px] z-10 aspect-square h-auto"
+                  "lg:w-60 w-40  lg:rounded-[80px] object-cover rounded-[60px] z-10 aspect-square h-auto"
                 )}
               />
               {getNormalisedIdx(idx) === 0 && (
