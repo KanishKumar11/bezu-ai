@@ -15,7 +15,7 @@ const Carousel = ({ setNormalisedIdx }) => {
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     arrows: false,
     centerMode: true,
     centerPadding: "0px",
@@ -33,8 +33,8 @@ const Carousel = ({ setNormalisedIdx }) => {
 
   const items = [
     { img: "./naruto.webp", name: "Naruto" },
-    { img: "./4.svg", name: "SRK" },
-    { img: "./6.svg", name: "Elon Musk" },
+    { img: "./4.svg", name: "SRK AI" },
+    { img: "./6.svg", name: "Musk AI" },
     { img: "./14.jpg", name: "Harll" },
     { img: "./8.svg", name: "Village Girl" },
     { img: "./10.jpg", name: "Celia" },

@@ -1,5 +1,3 @@
-import { InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
-import { XIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -15,7 +13,13 @@ export default function Footer() {
         </div>
         <div className="flex lg:flex-row flex-col gap-5">
           {" "}
-          <div className="cursor-pointer">Terms & conditions</div>
+          <Link href="/terms-and-conditions">
+            {" "}
+            <div className="cursor-pointer">Terms & conditions</div>
+          </Link>
+          <Link href="/privacy-policy">
+            <div className="cursor-pointer">Privacy Policy</div>
+          </Link>
           <div className="cursor-pointer">Contact us</div>
         </div>
         <div className="lg:static absolute right-4 -top-20">
