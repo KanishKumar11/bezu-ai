@@ -19,7 +19,7 @@ export default function Hero() {
     "If you wanna marry me, then move to my village",
     "Are you excited, to experience the best AI",
     "Do you wanna go to Mars ?",
-    "Koi blockbuster chal rahi hai, ya phir life thoda arthouse cinema type slow hai?",
+    "Don't underestimate the power of a common man!",
     "Let's save the world together ? ",
   ];
 
