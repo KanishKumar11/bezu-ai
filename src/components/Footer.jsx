@@ -8,7 +8,9 @@ export default function Footer() {
     <div className="w-full flex  gap-10 justify-between text-white flex-col px-10 py-5 mt-20 relative">
       <div className="flex w-full items-start justify-between lg:flex-row flex-col space-y-7">
         <div className="flex flex-col text-white">
-          <Image src="/1.svg" height={80} width={80} alt="" />
+          <Link href="/">
+            <Image src="/1.svg" height={80} width={80} alt="" />
+          </Link>
           {/* Bezu AI */}
         </div>
         <div className="flex lg:flex-row flex-col gap-5">

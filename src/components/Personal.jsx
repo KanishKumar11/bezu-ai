@@ -20,13 +20,27 @@ export default function Personal() {
           className="lg:w-[230px] w-[150px]"
         />
       </Link>
-      <div className="overflow-hidden w-full relative max-lg:pt-20">
+      <div className="lg:px-20 px-4 max-w-6xl w-full relative max-lg:pt-20 flex lg:gap-10 gap-4 my-20">
         <Image
           src="/17.svg"
           width={1200}
           height={1200}
           alt=""
-          className="lg:px-20  max-lg:w-[900px] scale-150 lg:scale-100 mx-auto"
+          className="w-[30%]   mx-auto"
+        />
+        <Image
+          src="/18.svg"
+          width={1200}
+          height={1200}
+          alt=""
+          className=" w-[30%]   mx-auto"
+        />
+        <Image
+          src="/19.svg"
+          width={1200}
+          height={1200}
+          alt=""
+          className="w-[30%]   mx-auto"
         />
       </div>
     </div>
