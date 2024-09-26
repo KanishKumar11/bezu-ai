@@ -32,12 +32,37 @@ export default function Personal() {
 
       {/* Swiper Carousel for Images */}
       <div className="lg:px-20 px-4 max-w-6xl w-full relative max-lg:pt-20 my-20">
+        <div className="lg:flex hidden">
+          <Image
+            src="/17.svg"
+            width={1200}
+            height={1200}
+            alt="Slide 1"
+            className="lg:w-[30%] mx-auto max-h-[90vh]"
+          />
+
+          <Image
+            src="/18.svg"
+            width={1200}
+            height={1200}
+            alt="Slide 2"
+            className="lg:w-[30%] mx-auto max-h-[90vh]"
+          />
+
+          <Image
+            src="/19.svg"
+            width={1200}
+            height={1200}
+            alt="Slide 3"
+            className="lg:w-[30%] mx-auto max-h-[90vh]"
+          />
+        </div>
         <Swiper
           loop={true} // Infinite loop
           autoplay={{ delay: 3000, disableOnInteraction: false }} // Auto-scroll every 3 seconds
           pagination={{ clickable: true }} // Dots below the slides
           modules={[Autoplay]}
-          className="w-full h-full max-h-[90vh]"
+          className="w-full h-full block lg:hidden"
         >
           {/* Slide 1 */}
           <SwiperSlide>
@@ -46,7 +71,7 @@ export default function Personal() {
               width={1200}
               height={1200}
               alt="Slide 1"
-              className="lg:w-[30%] mx-auto"
+              className="lg:w-[30%] mx-auto lg:hidden max-h-[90vh]"
             />
           </SwiperSlide>
 
@@ -57,7 +82,7 @@ export default function Personal() {
               width={1200}
               height={1200}
               alt="Slide 2"
-              className="lg:w-[30%] mx-auto"
+              className="lg:w-[30%] lg:hidden mx-auto max-h-[90vh]"
             />
           </SwiperSlide>
 
@@ -68,7 +93,7 @@ export default function Personal() {
               width={1200}
               height={1200}
               alt="Slide 3"
-              className="lg:w-[30%] mx-auto"
+              className="lg:w-[30%] lg:hidden mx-auto max-h-[90vh]"
             />
           </SwiperSlide>
         </Swiper>

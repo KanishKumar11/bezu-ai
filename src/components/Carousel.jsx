@@ -35,12 +35,12 @@ const Carousel = ({ setNormalisedIdx }) => {
     { img: "./17.jpg", name: "Naresh" },
     { img: "./18.jpg", name: "SRK AI" },
     { img: "./16.jpg", name: "Magic Man" },
-    { img: "./14.jpg", name: "Harll" },
+    { img: "./24.jpg", name: "Harll" },
     { img: "./19.jpg", name: "Village Girl" },
     { img: "./20.jpg", name: "Celia" },
     { img: "./21.jpg", name: "Shasha" },
-    { img: "./12.jpg", name: "Elda" },
-    { img: "./15.jpg", name: "Klema" },
+    { img: "./23.jpg", name: "Elda" },
+    { img: "./22.jpg", name: "Klema" },
   ];
 
   useEffect(() => {
