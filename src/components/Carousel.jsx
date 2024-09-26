@@ -32,13 +32,13 @@ const Carousel = ({ setNormalisedIdx }) => {
   };
 
   const items = [
-    { img: "./naruto.webp", name: "Naruto" },
-    { img: "./4.svg", name: "SRK AI" },
-    { img: "./6.svg", name: "Musk AI" },
+    { img: "./17.jpg", name: "Naresh" },
+    { img: "./18.jpg", name: "SRK AI" },
+    { img: "./16.jpg", name: "Magic Man" },
     { img: "./14.jpg", name: "Harll" },
-    { img: "./8.svg", name: "Village Girl" },
-    { img: "./10.jpg", name: "Celia" },
-    { img: "./11.jpg", name: "Shasha" },
+    { img: "./19.jpg", name: "Village Girl" },
+    { img: "./20.jpg", name: "Celia" },
+    { img: "./21.jpg", name: "Shasha" },
     { img: "./12.jpg", name: "Elda" },
     { img: "./15.jpg", name: "Klema" },
   ];
@@ -77,7 +77,7 @@ const Carousel = ({ setNormalisedIdx }) => {
                 src={item.img}
                 alt={item.name}
                 className={cn(
-                  "lg:w-60 w-40  lg:rounded-[80px] object-cover rounded-[60px] z-10 aspect-square h-auto"
+                  "lg:w-60 w-40  lg:rounded-[80px] object-cover rounded-[60px] z-10 aspect-square h-auto "
                 )}
               />
               {getNormalisedIdx(idx) === 0 && (
