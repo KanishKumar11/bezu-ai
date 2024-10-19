@@ -72,12 +72,14 @@ export default function Footer() {
         >
           <Image src="/images/33.svg" alt="" width={50} height={50} />
         </Link>
-        <Link
-          href="https://www.instagram.com/inovact__/?utm_medium=copy_link"
-          target="_blank"
-        >
-          <Image src="/images/34.svg" alt="" width={50} height={50} />
-        </Link>{" "}
+        <div className="shadow-xl rounded-xl">
+          <Link
+            href="https://www.instagram.com/inovact__/?utm_medium=copy_link"
+            target="_blank"
+          >
+            <Image src="/images/34.svg" alt="" width={50} height={50} />
+          </Link>
+        </div>{" "}
         <Link
           href="https://www.linkedin.com/company/inovact-pvt-ltd2/mycompany/"
           target="_blank"
