@@ -6,6 +6,7 @@ import Link from "next/link";
 import Iphone15Pro from "./ui/iphone-15-pro";
 import Footer from "./Footer";
 import { cn } from "@/lib/utils";
+import { Camera, CameraIcon, MessageCircle, VideoIcon } from "lucide-react";
 
 export default function Hero2() {
   const [activeSection, setActiveSection] = useState("video");
@@ -56,8 +57,8 @@ export default function Hero2() {
       className={
         (cn("min-h-screen block py-10 bg-cover"),
         activeSection === "video"
-          ? "bg-white bg-[url('/lbg.svg')]"
-          : "bg-black bg-[url('/dbg.svg')]")
+          ? " bg-gradient-to-b from-white to-[#FEF1BD]"
+          : "bg-black bg-[url('/dbg.svg')] text-white")
       }
     >
       <div className="pt-5">
@@ -76,21 +77,29 @@ export default function Hero2() {
             className=" text-black min-h-screen"
           >
             <div className="flex flex-col items-center mt-16 justify-center gap-4">
-              <Image src="/logo.svg" alt="" width={50} height={50} />
+              {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Your Personal Companion for Real Conversations – Anytime,
-                Anywhere
+                Real-time 1 on 1 video chats with AI Personalities
               </h1>
-              <p>For Couples who&#39;s love language is music </p>
-              <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
+              <p>Our AI can see, listen and speak to you </p>
+              <div className="flex gap-4">
+                <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
+                  <Image
+                    src="/16.svg"
+                    width={500}
+                    height={500}
+                    alt=""
+                    className="lg:w-[230px] w-[150px]"
+                  />
+                </Link>
                 <Image
-                  src="/16.svg"
+                  src="/apple.svg"
                   width={500}
                   height={500}
                   alt=""
                   className="lg:w-[230px] w-[150px]"
                 />
-              </Link>
+              </div>
             </div>
             <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
               <Image
@@ -125,11 +134,29 @@ export default function Hero2() {
             className=" text-white min-h-screen"
           >
             <div className="flex flex-col items-center mt-16 justify-center gap-4">
-              <Image src="/logo.svg" alt="" width={50} height={50} />
+              {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Chat Anytime, Anywhere with Your Personal AI Companion
+                Real-time 1 on 1 video chats with AI Personalities
               </h1>
-              <p>Experience seamless conversations tailored just for you</p>
+              <p>Our AI can see, listen and speak to you</p>
+              <div className="flex gap-4">
+                <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
+                  <Image
+                    src="/16.svg"
+                    width={500}
+                    height={500}
+                    alt=""
+                    className="lg:w-[230px] w-[150px]"
+                  />
+                </Link>
+                <Image
+                  src="/appled.svg"
+                  width={500}
+                  height={500}
+                  alt=""
+                  className="lg:w-[230px] w-[150px]"
+                />
+              </div>
             </div>
             <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
               <Image
@@ -167,7 +194,7 @@ export default function Hero2() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Video call
+          <VideoIcon />
         </motion.div>
         <motion.div
           className={`rounded-full px-10 py-3 cursor-pointer ${
@@ -179,7 +206,7 @@ export default function Hero2() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Chatting
+          <MessageCircle />
         </motion.div>
       </div>
 

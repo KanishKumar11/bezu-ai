@@ -12,7 +12,7 @@ export default function Navbar({ dark = false }) {
       )}
     >
       <Link href="/">
-        <div className=" flex items-center justify-center text-2xl py-5 gap-3   cursor-pointer">
+        <div className=" flex items-center justify-center text-2xl py-5 gap-3   cursor-pointer text-black">
           Bezu AI
         </div>
       </Link>
