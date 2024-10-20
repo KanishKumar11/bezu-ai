@@ -79,7 +79,7 @@ export default function Hero2() {
             <div className="flex flex-col items-center mt-16 justify-center gap-4">
               {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Real-time 1 on 1 video chats with AI Personalities
+                Video Chat With AI Personalities or AI Clones
               </h1>
               <p>Our AI can see, listen and speak to you </p>
               <div className="flex gap-4">
@@ -136,7 +136,7 @@ export default function Hero2() {
             <div className="flex flex-col items-center mt-16 justify-center gap-4">
               {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Real-time 1 on 1 video chats with AI Personalities
+                Video Chat With AI Personalities or AI Clones
               </h1>
               <p>Our AI can see, listen and speak to you</p>
               <div className="flex gap-4">
