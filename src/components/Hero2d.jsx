@@ -6,34 +6,67 @@ import Link from "next/link";
 import Iphone15Pro from "./ui/iphone-15-pro";
 import Footer from "./Footer";
 import { cn } from "@/lib/utils";
-import { Camera, CameraIcon, MessageCircle, VideoIcon } from "lucide-react";
 
 export default function Hero2() {
   const [activeSection, setActiveSection] = useState("video");
-  const [hasScrolled, setHasScrolled] = useState(false);
   const containerRef = useRef(null);
+  const touchStartY = useRef(null);
+
+  // Set this to true if you want the scroll effect to happen only once
+  const [scrollOnce, setScrollOnce] = useState(false);
 
   useEffect(() => {
     const handleWheel = (e) => {
-      if (!hasScrolled) {
-        if (e.deltaY > 0) {
+      if (scrollOnce && activeSection !== "video") return;
+
+      if (e.deltaY > 0) {
+        setActiveSection("chat");
+      } else if (e.deltaY < 0) {
+        setActiveSection("video");
+      }
+
+      if (scrollOnce) setScrollOnce(true);
+    };
+
+    const handleTouchStart = (e) => {
+      touchStartY.current = e.touches[0].clientY;
+    };
+
+    const handleTouchMove = (e) => {
+      if (scrollOnce && activeSection !== "video") return;
+
+      if (touchStartY.current !== null) {
+        const touchY = e.touches[0].clientY;
+        const deltaY = touchStartY.current - touchY;
+
+        if (deltaY > 50) {
           setActiveSection("chat");
-          setHasScrolled(true);
+          if (scrollOnce) setScrollOnce(true);
+        } else if (deltaY < -50) {
+          setActiveSection("video");
         }
       }
     };
 
     const container = containerRef.current;
     if (container) {
-      container.addEventListener("wheel", handleWheel);
+      container.addEventListener("wheel", handleWheel, { passive: false });
+      container.addEventListener("touchstart", handleTouchStart, {
+        passive: false,
+      });
+      container.addEventListener("touchmove", handleTouchMove, {
+        passive: false,
+      });
     }
 
     return () => {
       if (container) {
         container.removeEventListener("wheel", handleWheel);
+        container.removeEventListener("touchstart", handleTouchStart);
+        container.removeEventListener("touchmove", handleTouchMove);
       }
     };
-  }, [hasScrolled]);
+  }, [activeSection, scrollOnce]);
 
   const changeSection = (section) => {
     setActiveSection(section);
@@ -54,12 +87,12 @@ export default function Hero2() {
   return (
     <div
       ref={containerRef}
-      className={
-        (cn("min-h-screen block py-10 bg-cover"),
+      className={cn(
+        "min-h-screen block  bg-cover",
         activeSection === "video"
-          ? " bg-gradient-to-b from-white to-[#FEF1BD]"
-          : "bg-black bg-[url('/dbg.svg')] text-white")
-      }
+          ? "bg-gradient-to-b from-white to-[#FEF1BD]"
+          : "bg-black bg-[url('/dbg.svg')] text-white"
+      )}
     >
       <div className="pt-5">
         {" "}
@@ -183,7 +216,7 @@ export default function Hero2() {
         )}
       </AnimatePresence>
 
-      <div className=" bottom-20 left-1/2  rounded-full bg-gray-800 flex gap-5 p-5 w-max px-10 items-center z-10 mx-auto">
+      <div className="bottom-20 left-1/2 rounded-full bg-gray-800 flex gap-5 p-5 w-max px-10 items-center z-10 mx-auto">
         <motion.div
           className={`rounded-full px-5 py-5 cursor-pointer ${
             activeSection === "video"

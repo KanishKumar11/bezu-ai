@@ -83,10 +83,7 @@ export default function Footer() {
           </svg>{" "}
         </Link>
 
-        <Link
-          href="https://www.linkedin.com/company/inovact-pvt-ltd2/mycompany/"
-          target="_blank"
-        >
+        <Link href="https://www.linkedin.com/company/bezu-ai" target="_blank">
           <FaLinkedin className="text-xl text-neutral-400" />
         </Link>
         <Link href="/terms-and-conditions">
