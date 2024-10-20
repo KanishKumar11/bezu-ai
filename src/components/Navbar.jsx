@@ -17,15 +17,15 @@ export default function Navbar({ dark = false }) {
         </div>
       </Link>
       <div>
-        <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
-          <Image
-            src="/16.svg"
-            width={500}
-            height={500}
-            alt=""
-            className=" w-[150px]"
-          />
-        </Link>
+        {/* <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share"> */}
+        <Image
+          src="/logo.svg"
+          width={500}
+          height={500}
+          alt=""
+          className=" w-[50px]"
+        />
+        {/* </Link> */}
       </div>
     </div>
   );
