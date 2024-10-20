@@ -30,7 +30,7 @@ export const metadata = {
     creator: "@bezu_ai",
     title: "Real-time 1 on 1 video chats with AI Personalities or AI Clones",
     description: "Our AI can see, listen and speak to you. ",
-    images: ["/meta.png"],
+    images: ["https://www.mybezu.com/meta.png"],
   },
   icons: {
     icon: "/favicon.ico",

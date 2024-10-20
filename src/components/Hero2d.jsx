@@ -119,16 +119,16 @@ export default function Hero2() {
                 <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
                   <Image
                     src="/16.svg"
-                    width={500}
-                    height={500}
+                    width={250}
+                    height={250}
                     alt=""
                     className="w-[150px]"
                   />
                 </Link>
                 <Image
                   src="/apple.svg"
-                  width={500}
-                  height={500}
+                  width={250}
+                  height={250}
                   alt=""
                   className="w-[150px]"
                 />
@@ -176,16 +176,16 @@ export default function Hero2() {
                 <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
                   <Image
                     src="/16.svg"
-                    width={500}
-                    height={500}
+                    width={250}
+                    height={250}
                     alt=""
                     className=" w-[150px]"
                   />
                 </Link>
                 <Image
                   src="/appled.svg"
-                  width={500}
-                  height={500}
+                  width={250}
+                  height={250}
                   alt=""
                   className=" w-[150px]"
                 />
