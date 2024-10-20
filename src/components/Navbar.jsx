@@ -12,7 +12,7 @@ export default function Navbar({ dark = false }) {
       )}
     >
       <Link href="/">
-        <div className=" flex items-center justify-center text-2xl py-5 gap-3   cursor-pointer text-black">
+        <div className=" flex items-center justify-center text-2xl py-5 gap-3 font-medium  cursor-pointer text-black">
           Bezu AI
         </div>
       </Link>
@@ -20,10 +20,10 @@ export default function Navbar({ dark = false }) {
         {/* <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share"> */}
         <Image
           src="/logo.svg"
-          width={500}
-          height={500}
+          width={100}
+          height={100}
           alt=""
-          className=" w-[50px]"
+          className=" w-[40px] "
         />
         {/* </Link> */}
       </div>

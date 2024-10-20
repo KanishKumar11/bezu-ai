@@ -65,13 +65,13 @@ export default function Footer() {
     //   </div> */}
     // </div>
     <div className="mx-auto max-w-7xl">
-      <div className="flex items-center px-10 justify-start gap-10 py-10">
+      <div className="flex items-center px-10 justify-start lg:gap-5 gap-3   py-10">
         <Link href="https://x.com/bezu_ai" target="_blank">
-          <FaXTwitter className="text-2xl text-neutral-400" />
+          <FaXTwitter className="text-xl text-neutral-400" />
         </Link>
         <Link href="https://instagram.com/talktobezu" target="_blank">
           <svg
-            class="h-10 w-10 roate-90"
+            class="h-6 w-6 roate-90"
             fill="#9e9e9e"
             width="800px"
             height="800px"
@@ -87,14 +87,18 @@ export default function Footer() {
           href="https://www.linkedin.com/company/inovact-pvt-ltd2/mycompany/"
           target="_blank"
         >
-          <FaLinkedin className="text-2xl text-neutral-400" />
+          <FaLinkedin className="text-xl text-neutral-400" />
         </Link>
         <Link href="/terms-and-conditions">
           {" "}
-          <div className="cursor-pointer">Terms & conditions</div>
+          <div className="cursor-pointer ml-10 lg:text-sm text-xs">
+            Terms & conditions
+          </div>
         </Link>
         <Link href="/privacy-policy">
-          <div className="cursor-pointer">Privacy Policy</div>
+          <div className="cursor-pointer lg:text-sm text-xs">
+            Privacy Policy
+          </div>
         </Link>
       </div>
     </div>

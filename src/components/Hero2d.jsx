@@ -89,7 +89,7 @@ export default function Hero2() {
                     width={500}
                     height={500}
                     alt=""
-                    className="lg:w-[230px] w-[150px]"
+                    className="w-[150px]"
                   />
                 </Link>
                 <Image
@@ -97,7 +97,7 @@ export default function Hero2() {
                   width={500}
                   height={500}
                   alt=""
-                  className="lg:w-[230px] w-[150px]"
+                  className="w-[150px]"
                 />
               </div>
             </div>
@@ -111,8 +111,8 @@ export default function Hero2() {
               />
               <Iphone15Pro
                 className="size-full max-h-[80vh] w-max"
-                src="/1.mp4"
-                type="video"
+                src="/light.svg"
+                type="image"
               />
               <Image
                 src="/26.svg"
@@ -146,7 +146,7 @@ export default function Hero2() {
                     width={500}
                     height={500}
                     alt=""
-                    className="lg:w-[230px] w-[150px]"
+                    className=" w-[150px]"
                   />
                 </Link>
                 <Image
@@ -154,7 +154,7 @@ export default function Hero2() {
                   width={500}
                   height={500}
                   alt=""
-                  className="lg:w-[230px] w-[150px]"
+                  className=" w-[150px]"
                 />
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function Hero2() {
 
       <div className=" bottom-20 left-1/2  rounded-full bg-gray-800 flex gap-5 p-5 w-max px-10 items-center z-10 mx-auto">
         <motion.div
-          className={`rounded-full px-10 py-3 cursor-pointer ${
+          className={`rounded-full px-5 py-5 cursor-pointer ${
             activeSection === "video"
               ? "bg-yellow-500 text-black"
               : "bg-gray-700 text-white"
@@ -194,19 +194,25 @@ export default function Hero2() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <VideoIcon />
+          <Image src="/camera.svg" alt="" width={35} height={35} />
         </motion.div>
         <motion.div
-          className={`rounded-full px-10 py-3 cursor-pointer ${
+          className={`rounded-full px-5 py-3 cursor-pointer ${
             activeSection === "chat"
               ? "bg-yellow-500 text-black"
-              : "bg-gray-700 text-white"
+              : "bg-gray-200 text-white"
           }`}
           onClick={() => changeSection("chat")}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <MessageCircle />
+          <Image
+            src="/chat.svg"
+            alt=""
+            width={30}
+            height={30}
+            className="text-wh"
+          />
         </motion.div>
       </div>
 
