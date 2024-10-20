@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 export default function Hero2() {
   return (
-    <div className="bg-[url('/lbg.svg')] bg-cover">
+    <div className="bg-[url('/lbg.svg')]    bg-cover">
       <Navbar />
       <div
         className="flex flex-col items-center mt-16 
