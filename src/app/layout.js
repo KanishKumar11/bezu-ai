@@ -17,7 +17,7 @@ export const metadata = {
     description: "Our AI can see, listen and speak to you. ",
     images: [
       {
-        url: "/meta.png",
+        url: "https://www.mybezu.com/meta.png",
         width: 1200,
         height: 630,
         alt: "AI Video Chat Platform",
