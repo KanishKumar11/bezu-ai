@@ -15,7 +15,7 @@ export default function Hero2() {
       >
         <Image src="/logo.svg" alt="" width={50} height={50} />
         <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-          Your Personal Companion for Real Conversations – Anytime, Anywhere
+          Real-time 1 on 1 video chats with AI Personalities or AI Clones
         </h1>
         <p>For Couples who’s love language is music </p>
         <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
