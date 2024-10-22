@@ -7,7 +7,7 @@ import Iphone15Pro from "./ui/iphone-15-pro";
 import Footer from "./Footer";
 import { cn } from "@/lib/utils";
 
-export default function Hero2() {
+export default function Hero2d() {
   const [activeSection, setActiveSection] = useState("video");
   const containerRef = useRef(null);
   const touchStartY = useRef(null);
@@ -109,8 +109,7 @@ export default function Hero2() {
             transition={pageTransition}
             className=" text-black min-h-screen"
           >
-            <div className="flex flex-col items-center mt-16 justify-center gap-4">
-              {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
+            <div className="flex flex-col items-center mt-16 justify-center gap-4 lg:mb-0 mb-16">
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
                 Video Chat With AI Personalities or AI Clones
               </h1>
@@ -125,13 +124,15 @@ export default function Hero2() {
                     className="w-[150px]"
                   />
                 </Link>
-                <Image
-                  src="/apple.svg"
-                  width={250}
-                  height={250}
-                  alt=""
-                  className="w-[150px]"
-                />
+                <Link href="#">
+                  <Image
+                    src="/apple.svg"
+                    width={250}
+                    height={250}
+                    alt=""
+                    className="w-[150px]"
+                  />
+                </Link>
               </div>
             </div>
             <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
@@ -166,7 +167,7 @@ export default function Hero2() {
             transition={pageTransition}
             className=" text-white min-h-screen"
           >
-            <div className="flex flex-col items-center mt-16 justify-center gap-4">
+            <div className="flex flex-col items-center mt-16 justify-center gap-4 lg:mb-0 mb-16">
               {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
                 Video Chat With AI Personalities or AI Clones
@@ -182,13 +183,15 @@ export default function Hero2() {
                     className=" w-[150px]"
                   />
                 </Link>
-                <Image
-                  src="/appled.svg"
-                  width={250}
-                  height={250}
-                  alt=""
-                  className=" w-[150px]"
-                />
+                <Link href="#">
+                  <Image
+                    src="/appled.svg"
+                    width={250}
+                    height={250}
+                    alt=""
+                    className=" w-[150px]"
+                  />
+                </Link>
               </div>
             </div>
             <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
@@ -216,7 +219,7 @@ export default function Hero2() {
         )}
       </AnimatePresence>
 
-      <div className="bottom-20 left-1/2 rounded-full bg-gray-800 flex gap-5 p-5 w-max px-10 items-center z-10 mx-auto">
+      <div className="bottom-20 left-1/2 rounded-full bg-gray-800 lg:mt-0 mt-10 flex gap-5 p-5 w-max px-10 items-center z-10 mx-auto">
         <motion.div
           className={`rounded-full px-5 py-5 cursor-pointer ${
             activeSection === "video"
@@ -230,7 +233,7 @@ export default function Hero2() {
           <Image src="/camera.svg" alt="" width={35} height={35} />
         </motion.div>
         <motion.div
-          className={`rounded-full px-5 py-3 cursor-pointer ${
+          className={`rounded-full px-5 py-3  cursor-pointer ${
             activeSection === "chat"
               ? "bg-yellow-500 text-black"
               : "bg-gray-200 text-white"
