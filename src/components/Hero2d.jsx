@@ -114,7 +114,7 @@ export default function Hero2d() {
                 Video Chat With AI Personalities or AI Clones
               </h1>
               <p>Our AI can see, listen and speak to you </p>
-              <div className="flex gap-4">
+              {/* <div className="flex gap-4">
                 <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
                   <Image
                     src="/16.svg"
@@ -133,7 +133,12 @@ export default function Hero2d() {
                     className="w-[150px]"
                   />
                 </Link>
-              </div>
+              </div> */}
+              <Link href="#">
+                <div className="bg-black text-white rounded-md px-8 py-3 hover:bg-[#272727]hover:scale-105  ">
+                  Join for early access!
+                </div>
+              </Link>
             </div>
             <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
               <Image
@@ -173,7 +178,7 @@ export default function Hero2d() {
                 Video Chat With AI Personalities or AI Clones
               </h1>
               <p>Our AI can see, listen and speak to you</p>
-              <div className="flex gap-4">
+              {/* <div className="flex gap-4">
                 <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
                   <Image
                     src="/16.svg"
@@ -192,7 +197,12 @@ export default function Hero2d() {
                     className=" w-[150px]"
                   />
                 </Link>
-              </div>
+              </div> */}
+              <Link href="#">
+                <div className="bg-black text-white rounded-md px-8 py-3 hover:bg-[#272727]hover:scale-105  ">
+                  Join for early access!
+                </div>
+              </Link>
             </div>
             <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
               <Image
