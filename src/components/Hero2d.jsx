@@ -136,7 +136,7 @@ export default function Hero2d() {
                   />
                 </Link>
               </div> */}
-              <Link href="#">
+              <Link href="https://bspu8h9egdg.typeform.com/to/bzC5n3e4">
                 <div className="bg-black text-white rounded-md px-8 py-3 hover:bg-[#272727]hover:scale-105  ">
                   Join for early access!
                 </div>
@@ -202,7 +202,7 @@ export default function Hero2d() {
                   />
                 </Link>
               </div> */}
-              <Link href="#">
+              <Link href="https://bspu8h9egdg.typeform.com/to/bzC5n3e4">
                 <div className="bg-white text-black rounded-md px-8 py-3 hover:bg-[#979797]hover:scale-105  ">
                   Join for early access!
                 </div>
