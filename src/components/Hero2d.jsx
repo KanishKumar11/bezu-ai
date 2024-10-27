@@ -116,6 +116,8 @@ export default function Hero2d() {
               <p>Our AI can see, listen and speak to you </p>
               {/* <div className="flex gap-4">
                 <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
+              <div className="flex gap-4">
+                <Link href="#">
                   <Image
                     src="/16.svg"
                     width={250}
@@ -180,8 +182,10 @@ export default function Hero2d() {
               <p>Our AI can see, listen and speak to you</p>
               {/* <div className="flex gap-4">
                 <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
+              <div className="flex gap-4">
+                <Link href="#">
                   <Image
-                    src="/16.svg"
+                    src="/16d.svg"
                     width={250}
                     height={250}
                     alt=""
