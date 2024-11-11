@@ -18,7 +18,6 @@ export default function Hero2d() {
   useEffect(() => {
     const handleWheel = (e) => {
       if (scrollOnce && activeSection !== "video") return;
-      console.log(e.deltaY);
       if (e.deltaY > 30) {
         setActiveSection("chat");
       } else if (e.deltaY < -30) {
@@ -109,7 +108,7 @@ export default function Hero2d() {
             transition={pageTransition}
             className=" text-black min-h-screen"
           >
-            <div className="flex flex-col items-center lg:mt-24 justify-center gap-4 lg:mb-24 mb-16">
+            <div className="flex flex-col items-center mt-16  justify-center gap-4  lg:mb-0 mb-16">
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
                 Video Chat With AI Personalities or AI Clones
               </h1>
@@ -177,7 +176,7 @@ export default function Hero2d() {
             transition={pageTransition}
             className=" text-white min-h-screen"
           >
-            <div className="flex flex-col items-center lg:mt-24 justify-center gap-4 lg:mb-24 mb-16 ">
+            <div className="flex flex-col items-center mt-16 justify-center gap-4 lg:mb-0 mb-16 ">
               {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
                 Video Chat With AI Personalities or AI Clones
