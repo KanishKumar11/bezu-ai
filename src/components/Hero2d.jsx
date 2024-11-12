@@ -18,9 +18,9 @@ export default function Hero2d() {
   useEffect(() => {
     const handleWheel = (e) => {
       if (scrollOnce && activeSection !== "video") return;
-      if (e.deltaY > 30) {
+      if (e.deltaY > 0) {
         setActiveSection("chat");
-      } else if (e.deltaY < -30) {
+      } else if (e.deltaY < -0) {
         setActiveSection("video");
       }
 
