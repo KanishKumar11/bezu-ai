@@ -179,7 +179,7 @@ export default function Hero2d() {
             <div className="flex flex-col items-center mt-16 justify-center gap-4 lg:mb-0 mb-16 ">
               {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Video Chat With AI Personalities or AI Clones
+                Real-Time Video Chats with Lifelike AI Characters
               </h1>
               <p>Our AI can see, listen and speak to you</p>
               {/* <div className="flex gap-4">
