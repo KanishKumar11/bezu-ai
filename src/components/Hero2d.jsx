@@ -113,57 +113,58 @@ export default function Hero2d() {
                 Real-Time Video Chats with Lifelike AI Characters
               </h1>
               <p>Our AI can see, listen and speak to you </p>
-              {/* <div className="flex gap-4">
-                <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
               <div className="flex gap-4">
-                <Link href="#">
-                  <Image
-                    src="/16.svg"
-                    width={250}
-                    height={250}
-                    alt=""
-                    className="w-[150px]"
-                  />
-                </Link>
-                <Link href="#">
-                  <Image
-                    src="/apple.svg"
-                    width={250}
-                    height={250}
-                    alt=""
-                    className="w-[150px]"
-                  />
-                </Link>
-              </div> */}
-              <Link href="https://bspu8h9egdg.typeform.com/to/bzC5n3e4">
+                {/* <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share"> */}
+                <div className="flex gap-4">
+                  <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&hl=en_IN">
+                    <Image
+                      src="/16.svg"
+                      width={250}
+                      height={250}
+                      alt=""
+                      className="w-[150px]"
+                    />
+                  </Link>
+                  <Link href="https://apps.apple.com/app/bezu-ai-video-chat-with-ai/id6737712382">
+                    <Image
+                      src="/apple.svg"
+                      width={500}
+                      height={500}
+                      alt=""
+                      className="w-[150px]"
+                    />
+                  </Link>
+                </div>
+                {/* <Link href="https://bspu8h9egdg.typeform.com/to/bzC5n3e4">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-10 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                     Join for early access!
                   </span>
                 </button>
-              </Link>
-            </div>
-            <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
-              <Image
-                src="/25.svg"
-                alt=""
-                width={400}
-                height={500}
-                className="lg:block hidden"
-              />
-              <Iphone15Pro
-                className="size-full max-h-[80vh] w-max"
-                src="/light.svg"
-                type="image"
-              />
-              <Image
-                src="/26.svg"
-                alt=""
-                width={400}
-                height={500}
-                className="lg:block hidden"
-              />
+              </Link> */}
+              </div>
+              <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
+                <Image
+                  src="/25.svg"
+                  alt=""
+                  width={400}
+                  height={500}
+                  className="lg:block hidden"
+                />
+                <Iphone15Pro
+                  className="size-full max-h-[80vh] w-max"
+                  src="/light.svg"
+                  type="image"
+                />
+                <Image
+                  src="/26.svg"
+                  alt=""
+                  width={400}
+                  height={500}
+                  className="lg:block hidden"
+                />
+              </div>
             </div>
           </motion.div>
         ) : (
@@ -182,37 +183,36 @@ export default function Hero2d() {
                 Real-Time Video Chats with Lifelike AI Characters
               </h1>
               <p>Our AI can see, listen and speak to you</p>
-              {/* <div className="flex gap-4">
-                <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share">
+              {/* {/* <div className="flex gap-4"> */}
+              {/* <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share"> */}
               <div className="flex gap-4">
-                <Link href="#">
+                <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&hl=en_IN">
                   <Image
-                    src="/16d.svg"
+                    src="/16.svg"
                     width={250}
                     height={250}
                     alt=""
-                    className=" w-[150px]"
+                    className="w-[150px]  rounded-md border"
                   />
                 </Link>
-                <Link href="#">
+                <Link href="https://apps.apple.com/app/bezu-ai-video-chat-with-ai/id6737712382">
                   <Image
-                    src="/appled.svg"
-                    width={250}
-                    height={250}
+                    src="/apple.svg"
+                    width={500}
+                    height={500}
                     alt=""
-                    className=" w-[150px]"
+                    className="w-[150px] border rounded-md"
                   />
                 </Link>
-
-              </div> */}
-              <Link href="https://bspu8h9egdg.typeform.com/to/bzC5n3e4">
+              </div>
+              {/* <Link href="https://bspu8h9egdg.typeform.com/to/bzC5n3e4">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-10 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                     Join for early access!
                   </span>
                 </button>
-              </Link>
+              </Link> */}
             </div>
             <div className="mx-auto max-h-screen my-10 flex items-center justify-center gap-20">
               <Image
