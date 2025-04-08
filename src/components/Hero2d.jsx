@@ -110,8 +110,11 @@ export default function Hero2d() {
             className=" text-black min-h-screen"
           >
             <div className="flex flex-col items-center mt-16  justify-center gap-4  lg:mb-0 mb-16">
-              <h1 className={`${circularStd.className} text-4xl max-w-4xl text-balance mx-auto text-center`}>
-                Discover, Create, and Chat with your lifelike AI characters in Bezu
+              <h1
+                className={`${circularStd.className} text-4xl max-w-4xl text-balance mx-auto text-center`}
+              >
+                Discover, Create, and Chat with your lifelike AI characters in
+                Bezu
               </h1>
               <p className={`${circularStdMed.className}`}>
                 Lifelike AI friends for you to support and entertain
@@ -159,7 +162,7 @@ export default function Hero2d() {
                   alt=""
                   width={400}
                   height={400}
-                  className="size-full max-h-[80vh] w-max"
+                  className="size-full lg:max-h-[80vh] w-max"
                   src="/images/1p.png"
                   type="image"
                 />
@@ -185,8 +188,11 @@ export default function Hero2d() {
           >
             <div className="flex flex-col items-center mt-16 justify-center gap-4 lg:mb-0 mb-16 ">
               {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
-              <h1 className={`${circularStd.className} text-4xl max-w-4xl text-balance mx-auto text-center`}>
-                Discover, Create, and Chat with your lifelike AI characters in Bezu
+              <h1
+                className={`${circularStd.className} text-4xl max-w-4xl text-balance mx-auto text-center`}
+              >
+                Discover, Create, and Chat with your lifelike AI characters in
+                Bezu
               </h1>
               <p className={`${circularStdMed.className}`}>
                 Lifelike AI friends for you to support and entertain
@@ -234,7 +240,7 @@ export default function Hero2d() {
                 alt=""
                 width={400}
                 height={400}
-                className="size-full max-h-[80vh] w-max"
+                className="size-full lg:max-h-[80vh] w-max"
                 src="/images/2p.png"
                 type="image"
               />
