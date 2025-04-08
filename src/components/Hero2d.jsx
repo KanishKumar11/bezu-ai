@@ -110,9 +110,10 @@ export default function Hero2d() {
           >
             <div className="flex flex-col items-center mt-16  justify-center gap-4  lg:mb-0 mb-16">
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Real-Time Video Chats with Lifelike AI Characters
+                Discover, Create, and Chat with your lifelike AI
+                characters in Bezu AI
               </h1>
-              <p>Our AI can see, listen and speak to you </p>
+              <p>Lifelike AI friends for you to support and entertain</p>
               <div className="flex gap-4">
                 {/* <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share"> */}
                 <div className="flex gap-4">
@@ -125,7 +126,7 @@ export default function Hero2d() {
                       className="w-[150px]"
                     />
                   </Link>
-                  <Link href="https://apps.apple.com/app/bezu-ai-video-chat-with-ai/id6737712382">
+                  {/* <Link href="https://apps.apple.com/app/bezu-ai-video-chat-with-ai/id6737712382">
                     <Image
                       src="/apple.svg"
                       width={500}
@@ -133,7 +134,7 @@ export default function Hero2d() {
                       alt=""
                       className="w-[150px]"
                     />
-                  </Link>
+                  </Link> */}
                 </div>
                 {/* <Link href="https://bspu8h9egdg.typeform.com/to/bzC5n3e4">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
@@ -152,9 +153,12 @@ export default function Hero2d() {
                   height={500}
                   className="lg:block hidden"
                 />
-                <Iphone15Pro
+                <Image
+                  alt=""
+                  width={400}
+                  height={400}
                   className="size-full max-h-[80vh] w-max"
-                  src="/light.svg"
+                  src="/images/1p.png"
                   type="image"
                 />
                 <Image
@@ -180,9 +184,10 @@ export default function Hero2d() {
             <div className="flex flex-col items-center mt-16 justify-center gap-4 lg:mb-0 mb-16 ">
               {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
               <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Real-Time Video Chats with Lifelike AI Characters
+                Discover, Create, and Chat with your lifelike AI
+                characters in Bezu AI{" "}
               </h1>
-              <p>Our AI can see, listen and speak to you</p>
+              <p>Lifelike AI friends for you to support and entertain</p>
               {/* {/* <div className="flex gap-4"> */}
               {/* <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share"> */}
               <div className="flex gap-4">
@@ -195,7 +200,7 @@ export default function Hero2d() {
                     className="w-[150px]  rounded-md border"
                   />
                 </Link>
-                <Link href="https://apps.apple.com/app/bezu-ai-video-chat-with-ai/id6737712382">
+                {/* <Link href="https://apps.apple.com/app/bezu-ai-video-chat-with-ai/id6737712382">
                   <Image
                     src="/apple.svg"
                     width={500}
@@ -203,7 +208,7 @@ export default function Hero2d() {
                     alt=""
                     className="w-[150px] border rounded-md"
                   />
-                </Link>
+                </Link> */}
               </div>
               {/* <Link href="https://bspu8h9egdg.typeform.com/to/bzC5n3e4">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
@@ -222,9 +227,12 @@ export default function Hero2d() {
                 height={500}
                 className="lg:block hidden"
               />
-              <Iphone15Pro
+              <Image
+                alt=""
+                width={400}
+                height={400}
                 className="size-full max-h-[80vh] w-max"
-                src="/m.svg"
+                src="/images/2p.png"
                 type="image"
               />
               <Image
