@@ -6,6 +6,7 @@ import Link from "next/link";
 import Iphone15Pro from "./ui/iphone-15-pro";
 import Footer from "./Footer";
 import { cn } from "@/lib/utils";
+import { circularStd, circularStdMed } from "@/fonts";
 
 export default function Hero2d() {
   const [activeSection, setActiveSection] = useState("video");
@@ -109,11 +110,12 @@ export default function Hero2d() {
             className=" text-black min-h-screen"
           >
             <div className="flex flex-col items-center mt-16  justify-center gap-4  lg:mb-0 mb-16">
-              <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Discover, Create, and Chat with your lifelike AI
-                characters in Bezu AI
+              <h1 className={`${circularStd.className} text-4xl max-w-4xl text-balance mx-auto text-center`}>
+                Discover, Create, and Chat with your lifelike AI characters in Bezu
               </h1>
-              <p>Lifelike AI friends for you to support and entertain</p>
+              <p className={`${circularStdMed.className}`}>
+                Lifelike AI friends for you to support and entertain
+              </p>
               <div className="flex gap-4">
                 {/* <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share"> */}
                 <div className="flex gap-4">
@@ -183,11 +185,12 @@ export default function Hero2d() {
           >
             <div className="flex flex-col items-center mt-16 justify-center gap-4 lg:mb-0 mb-16 ">
               {/* <Image src="/logo.svg" alt="" width={50} height={50} /> */}
-              <h1 className="euclid text-4xl max-w-4xl text-balance mx-auto text-center">
-                Discover, Create, and Chat with your lifelike AI
-                characters in Bezu AI{" "}
+              <h1 className={`${circularStd.className} text-4xl max-w-4xl text-balance mx-auto text-center`}>
+                Discover, Create, and Chat with your lifelike AI characters in Bezu
               </h1>
-              <p>Lifelike AI friends for you to support and entertain</p>
+              <p className={`${circularStdMed.className}`}>
+                Lifelike AI friends for you to support and entertain
+              </p>
               {/* {/* <div className="flex gap-4"> */}
               {/* <Link href="https://play.google.com/store/apps/details?id=com.bezu.ai&pcampaignid=web_share"> */}
               <div className="flex gap-4">

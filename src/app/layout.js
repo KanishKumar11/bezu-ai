@@ -1,7 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Real-Time Video Chats with Lifelike AI Characters",
+  title:
+    "Discover, Create, and Chat with your lifelike AI                characters in Bezu ",
   description: "Our AI can see, listen and speak to you.",
   keywords:
     "AI video chat, AI personalities, AI clones, real-time conversations",
@@ -13,8 +14,9 @@ export const metadata = {
     locale: "en_US",
     url: "https://www.mybezu.com/",
     site_name: "Bezu Ai",
-    title: "Real-Time Video Chats with Lifelike AI Characters",
-    description: "Our AI can see, listen and speak to you. ",
+    title:
+      "Discover, Create, and Chat with your lifelike AI               characters in Bezu ",
+    description: "Lifelike AI friends for you to support and entertain",
     images: [
       {
         url: "https://www.mybezu.com/meta.png",
@@ -28,8 +30,9 @@ export const metadata = {
     card: "summary_large_image",
     site: "@bezu_ai",
     creator: "@bezu_ai",
-    title: "Real-Time Video Chats with Lifelike AI Characters",
-    description: "Our AI can see, listen and speak to you. ",
+    title:
+      "Discover, Create, and Chat with your lifelike AI                characters in Bezu ",
+    description: "Lifelike AI friends for you to support and entertain",
     images: ["https://www.mybezu.com/meta.png"],
   },
   icons: {
